@@ -7,4 +7,4 @@ POSTGRES_DATABASE=
 
 PUERTO=3000
 
-Tambien se hacen varios cambios en el css de la pagina pero solo visuales.
+Tambien se hacen varios cambios finales en el css de la pagina pero solo visuales.
