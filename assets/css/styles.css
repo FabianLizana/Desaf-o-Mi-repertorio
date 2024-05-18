@@ -2,7 +2,11 @@ body {
   text-align: center;
   background: #eee;
   padding-bottom: 3rem;
+  background-image: url('../images/fondo.jpg');
+  background-size: cover;
+   background-position: center;
 }
+
 
 .container_title {
   width: fit-content;
@@ -16,12 +20,7 @@ body {
 label {
   font-weight: 700;
 }
-.separador {
-  width: 100%;
-  height: 8px;
-  background-color: red;
-  border: 1px solid black;
-}
+
 .container_btns_form {
   gap: 10px;
 }
@@ -38,4 +37,23 @@ label {
 .table_canciones {
   max-width: 600px;
   margin-inline: auto;
+
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #d04848;
+  border-color: #000000;
+}
+
+.btn-info:hover {
+  color: #000;
+  background-color: #93d2e1;
+  border-color: #031114;
+}
+.table > :not(caption) > * > * {
+  padding: .5rem .5rem;
+  background-color:  #2a68a5;
+  border-bottom-width: 1px;
+  box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
 }
